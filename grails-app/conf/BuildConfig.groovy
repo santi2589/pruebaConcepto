@@ -15,6 +15,11 @@ grails.project.dependency.resolution = {
     log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     checksums true // Whether to verify checksums on resolve
 
+    coverage {
+        enabledByDefault = false
+        xml = true
+    }
+
     repositories {
         inherits true // Whether to inherit repository definitions from plugins
 
@@ -50,6 +55,7 @@ grails.project.dependency.resolution = {
         build ":tomcat:$grailsVersion"
 
         runtime ":database-migration:1.1"
+        test ":code-coverage:2.0.3-3"
 
         compile ':cache:1.0.0'
     }
