@@ -12,6 +12,6 @@ import org.junit.*
 class Test1Tests {
 
     void testSomething() {
-      assertTrue(true)
+      assertTrue(true);
     }
 }
