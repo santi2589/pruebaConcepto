@@ -30,6 +30,18 @@ grails.project.dependency.resolution = {
         mavenLocal()
         mavenCentral()
 
+        mavenRepo "http://repo1.maven.org/maven2/"
+        mavenRepo "http://repo.grails.org/grails/core"
+        mavenRepo "http://repo.grails.org/grails/plugins"
+
+        mavenRepo "http://git.ml.com:8081/nexus/content/repositories/MLGrailsPlugins"
+        mavenRepo "http://git.ml.com:8081/nexus/content/repositories/ArqDeploy"
+        mavenRepo "http://git.ml.com:8081/nexus/content/groups/Arquitectura"
+        mavenRepo "http://git.ml.com:8081/nexus/content/groups/public"
+        mavenRepo "http://git.ml.com:8081/nexus/content/groups/ML"
+        mavenRepo "http://repository.codehaus.org"
+        mavenRepo "https://repo.grails.org/grails/plugins"
+
         // uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
